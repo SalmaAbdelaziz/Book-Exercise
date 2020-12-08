@@ -20,14 +20,14 @@ for(var i= 0 ; i < links.length ; i++)
 function getData(type)
 {
 
-    httpReq.open("GET",  "https://api.nytimes.com/svc/books/v3/lists/"+type+".json&apiKey=AZ0CVRUpzAADoe719vXd634UGa7C7mgA" ) // hatft7 tari2 bena w ben eltanyeen
-    httpReq.send(); // hatb3t 3arbia nos na2l t7ml eldata
+    httpReq.open("GET",  "https://api.nytimes.com/svc/books/v3/lists/"+type+".json&apiKey=AZ0CVRUpzAADoe719vXd634UGa7C7mgA" ) 
+    httpReq.send(); 
     httpReq.onreadystatechange = function()
     {
         if(httpReq.readyState == 4 && httpReq.status == 200)
         {
     
-            allData =  JSON.parse( httpReq.response).results; // di hat4il eldata ely rag3a
+            allData =  JSON.parse( httpReq.response).results; 
             displayData();
         }
     }
