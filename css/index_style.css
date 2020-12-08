@@ -1,0 +1,139 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family:'Poppins', 'sans-serif';
+
+}
+#btnUp{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+#navb
+{
+    font-size: 20px;
+}
+.navbar-brand
+{
+    font-size: 30px;
+}
+.image-me
+{
+    box-shadow: 0 10px 30px rgba(0,0,0,.25);
+    background-color: transparent;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#about1
+{
+    font-size: 20px;
+    
+    
+}
+.title
+{
+    position: relative;
+    font-weight: 800;
+}
+.title h2
+{
+    color: #f1f1f1;
+    font-size: 5rem;
+    font-weight: 800;
+
+}
+.title h3
+{
+    position: absolute;
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: 3px;
+
+}
+#about1 h4{
+    font-style: italic;
+    color: crimson;
+}
+.fontType
+{
+    color: rgb(105, 103, 103);
+}
+
+#contact
+{
+    margin-top: 100px;
+    text-align: center;
+}
+#contact .topic h2{
+    
+    font-size: 35px;
+    color:crimson;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#contact .con-info p{
+    font-size: 16px;
+    line-height: 26px;
+    color:#777;
+}
+#contact .con-icons{
+    margin-top:50px;
+}
+#contact .con-icons p{
+    margin-bottom: 35px;
+}
+#contact i{
+    margin-right: 20px;
+    color:#777;
+}
+#contact .color{
+    color:crimson !important;
+}
+
+
+#contact .con-info .con-ico-footer i{
+    margin-right: 10px;
+    border:1px solid #999;
+    width:40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+#contact .con-info .con-ico-footer i:hover{
+    color:#fff;
+    background-color: crimson;
+    border:1px solid crimson;
+}
+#contact form input,
+#contact form textarea{
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+#contact form textarea{
+    height: 200px;
+}
+
+#contact form button{
+    background-color: crimson;
+    color:#fff;
+    padding:10px 20px;
+    border-radius: 0;
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+#char
+{
+    font-size: 20px;
+    color: crimson;
+}
+
+
+
